@@ -1,0 +1,9 @@
+[unstable]
+build-std = ["core", "compiler_builtins", "alloc"]
+build-std-features = ["compiler-builtins-mem"]
+
+[target.x86_64-unknown-none]
+# This is the line that tells Rust to use your linker script.
+rustflags = [
+    "-C", "link-arg=-T./linker.ld",
+]

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteTargetsManager">
+    <targets>
+      <target name="WSL - archlinux" type="wsl" uuid="ab2854a0-fc18-46cf-b5b9-218ad2ec4b02">
+        <config>
+          <option name="distributionMsId" value="archlinux" />
+          <option name="projectRootOnTarget" value="{exitCode=0, timeout=false, cancelled=false, stdout=/tmp/tmp.Cm1SL5T4E8&#13;&#10;, stderr=}/CustomK" />
+        </config>
+      </target>
+    </targets>
+  </component>
+</project>
