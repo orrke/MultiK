@@ -53,6 +53,11 @@ SECTIONS
     .bss : {
         *(.bss .bss.*)
         *(COMMON)
+
+        . = ALIGN(0x1000)
+        _bootstrap_start = .
+        . += 1M
+        _bootstrap_end = .
     } :data
 
     _kernel_end = .;

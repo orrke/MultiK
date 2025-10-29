@@ -2,3 +2,5 @@
 /ovmf
 *.iso
 *.hdd
+!/kernel/target/
+!/kernel/src_old
