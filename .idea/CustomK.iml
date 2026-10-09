@@ -6,6 +6,8 @@
       <sourceFolder url="file://$MODULE_DIR$/kernel/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/kernel/rust-toolchain/target" />
       <excludeFolder url="file://$MODULE_DIR$/kernel/target" />
+      <excludeFolder url="file://$MODULE_DIR$/hypervisor/target" />
+      <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
