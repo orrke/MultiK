@@ -5,3 +5,6 @@ This is a simple multi kernel designed with some ideas I had. It has heavy inspi
 Thanks to the limine team for the bootloader, and also the limine-rs team for the project template, because I don't know heck about makefiles.
 
 Also, it's called MultiK, because I'd like to explore the multi-kernel architecture in the future, I just need to have the motivation once again in that field to actually go into it (it's a big undertaking for a single person, hence the pause for a while now).
+
+If you want to run it, you'll be needing Qemu, the rust toolchain and GNU Make. 
+You can use the make profile that best suits your target architecture, although right now it's designed for x86-64 use (I didn't verify x86 compatibility). 
